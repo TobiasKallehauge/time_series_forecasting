@@ -79,7 +79,7 @@ addParameter(p,'early_stop_epoch',false);
 addParameter(p,'N_early_stop',100);
 addParameter(p,'early_stop_tol',false);
 addParameter(p,'tol',1e-3);
-addParameter(p,'displaysec',0.5);
+addParameter(p,'displaysec',0.1);
 parse(p,varargin{:});
 
 % Extract optional arguments as variables if used often
