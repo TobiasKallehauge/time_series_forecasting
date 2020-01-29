@@ -27,7 +27,7 @@ The liberay is solely built on the basic tools in matlab - no toolboxes required
 Matlab version: '9.6.0.1174912 (R2019a) Update 5'
 
 ## Authors
-Tobias Kallehauge - MS student - Aalborg Univeristy
+[Tobias Kallehauge](https://www.linkedin.com/in/tobias-kallehauge/) - MS student - Aalborg Univeristy
 
 ## License
 The content of this library is freely available.
