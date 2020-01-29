@@ -22,6 +22,7 @@ The liberay is solely built on the basic tools in matlab - no toolboxes required
 * **TK_FNN_init_para.m** - Initialise the parameterss for the NF network. Center parameters for the GMF's are initialised uniformly on the range of the time series while the variances and rule weight parameters are initialised uniformly between 0 and 1.
 * **TK_optimize.m** - Train either FNN or NF network using gradient descent type optimization. The gradient step can be done with respect to one ore multible training examples determined by the given batch size which defaults to 1. Serveral stopping criteria are supported (see the documentation), and a graphical progress bar is shown during optimization. 
 * **TK_timeseries_preprocess.m** - Preprocess vector containing a time timeseries returning XI and XO. XI have inputs along the rows with one or more columns. The inputs may be distanced by one or more samples. XO is a column vector with the output used as target for prediction. 
+* **data/** Folder containing the Mackley Glass dataseries as well as precalculated parameters for the FNN and NF network. 
 
 ### Versioning
 Matlab version: '9.6.0.1174912 (R2019a) Update 5'
